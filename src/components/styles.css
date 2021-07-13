@@ -22,6 +22,11 @@
     background-color: var(--page-color);
     height: 100%;
     width: 100%;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    overflow: hidden;
 }
 
 .navbar .navname{
@@ -63,8 +68,8 @@
     color: var(--text-color);
 }
 .hello-img{
-    margin-top: 100px;
-    width: 800px;
+    margin-top: 10px;
+    max-height: 250px;
 }
 .display-3{
     color: var(--hello);
@@ -181,7 +186,6 @@ strong, .with{
     border-width: 1px;
     border-color: var(--text-color);
     color: var(--hello);
-    min-width: 500px;
 }
 
 .contact-img{
